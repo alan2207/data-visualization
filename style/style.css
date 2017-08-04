@@ -8,7 +8,6 @@ body {
 svg {
     background: white;
     display: block;
-    margin: 0 auto;
     -webkit-box-shadow: 2px 2px 9px 0px rgba(50, 50, 50, 1);
     -moz-box-shadow:    2px 2px 9px 0px rgba(50, 50, 50, 1);
     box-shadow:         2px 2px 9px 0px rgba(50, 50, 50, 1);
@@ -22,6 +21,17 @@ svg {
 .bold {
     font-size: 12px;
     font-weight: bold;
+}
+
+
+
+.menu-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* STYLES FOR THE BAR CHART: */
@@ -51,10 +61,9 @@ svg {
 div.bar-chart-tooltip {
   position: absolute;
   text-align: center;
-  width: 160px;
-  height: 30px;
+  width: auto;
+  height: auto;
   padding: 2px;
-  font: 12px sans-serif;
   background: lightsteelblue;
   border: 0px;
   border-radius: 8px;
@@ -62,6 +71,7 @@ div.bar-chart-tooltip {
 }
 
 /* STYLES FOR THE BAR CHART: */
+
 
 /* STYLES FOR THE SCATTERPLOT CHART: */
 
@@ -113,10 +123,10 @@ div.bar-chart-tooltip {
 
 img {
     position: absolute;
-    left: 50%;
-    margin-left: 210px;
+    margin-left: 10px;
     margin-top: 190px;
 }
+
 
 
 .forced-direction-tooltip {

@@ -40,7 +40,7 @@ export default class ForceDirectedGraph extends React.Component {
                                     .attr('id', 'container');
 
                 var svg = container.append('svg')
-                                     .attr('class', '.force-directed-graph')
+                                     .attr('class', 'force-directed-graph')
                                      .attr('width', width + margin.left + margin.right)
                                      .attr('height', height + margin.bottom + margin.top)
                                      .append('g')
